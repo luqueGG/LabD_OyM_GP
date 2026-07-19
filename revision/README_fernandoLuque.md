@@ -57,6 +57,22 @@ Si la alineacion sube pero la autonomia baja -> Habrá mas demoras
 - Épica 4 ya pide "Monitoreo del estado de los laboratorios" — telemetría de programas/servicios es literalmente eso.
 - En procesos-laboratorio.md tiene KPIs que hoy no tienen mecanismo claro de medición automática (ej. "tiempo promedio de configuración de entorno ≤15 min", "tasa de utilización de imágenes oficiales ≥75%"). Sin logs/telemetría, esos KPIs se medirían manualmente o con encuestas, lo cual es poco confiable. Con telemetría de programas, esos KPIs se vuelven medibles automáticamente.
 
-## Para ello
+### Para ello
 tendriamos que agregar stack tecnologico en arquitectura.md como
 Prometheus + Grafana para métricas, Loki o ELK para logs. Lo que es el stack estándar que ya usa el ecosistema Kubernetes. Esto para la salud de la infraestructura.
+
+## Definición de organizacion y roles respecto a la gestion de laboratorios
+La organización y los roles no cambian estructuralmente.
+La matriz RACI cubre 6 actividades:
+- Solicitud Hardware, 
+- Solicitud/Aprobación Imágenes, 
+- Creación de Imagen, 
+- Reserva de Equipos, 
+- Actualización de Imágenes, 
+- Definición de Procesos
+
+Habria que agregar "Monitoreo de Infraestructura / Gestión de Incidentes".
+R: Squad Core Platform / Chapter DevOps
+A: Administrador de Laboratorio
+C: Responsable de Imágenes (cuando el incidente es sobre una imagen específica)
+I: Docente, Estudiante
