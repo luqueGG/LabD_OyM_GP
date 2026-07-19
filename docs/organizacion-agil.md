@@ -26,3 +26,11 @@ Los **Chapters** serán liderados por profesores con experiencia en industria (m
 - Chapter DevOps & Platform Engineering
 - Chapter Security & Compliance
 - Chapter Frontend & UX
+
+---
+
+## Guilds Activos
+- **Guild de Seguridad (SecOps):** Escaneo de vulnerabilidades y gestión de identidad.
+- **Guild de Automatización:** Integración IoT y mejoras en laboratorios.
+
+<span style="color:red;">**[COMENTARIO A FAVOR]:** La teoría del material de clase resalta muy bien el valor de los *Guilds* para el Modelo Spotify, pero en la estructura práctica no se había fundado ninguno. Activar estos dos Guilds transversalmente creo que potenciará el aprendizaje orgánico entre los diferentes Squads.</span>

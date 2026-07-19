@@ -56,6 +56,7 @@ Start → Solicitud por Portal → Verificación Automática de Disponibilidad
 3. Se registra el préstamo con fecha/hora de devolución.
 4. Al llegar al laboratorio se realiza Check-in.
 
+<span style="color:red;">**[COMENTARIO EN CONTRA]:** Mantener la reserva del equipo (3.1) y el check-in del laboratorio (3.4) como flujos separados genera doble fricción administrativa para el estudiante. Propongo fusionar ambos en un único "Proceso Integrado de Reserva de Espacio de Trabajo", donde escanear el código QR asigne la PC y cargue la imagen en un solo paso.</span>
 ---
 
 ### 3.2 Proceso: Gestión del Catálogo de Imágenes de Contenedores (Core)
@@ -111,7 +112,7 @@ Start → Login → Seleccionar Horario y Equipo
 → Reserva Confirmada → Recordatorio 15 min antes
 → Check-in en Laboratorio → Uso → Check-out → Liberación Automática
 
-
+<span style="color:red;">**[COMENTARIO EN CONTRA]:** Mantener la reserva del equipo (3.1) y el check-in del laboratorio (3.4) como flujos separados genera doble fricción administrativa para el estudiante. Propongo fusionar ambos en un único "Proceso Integrado de Reserva de Espacio de Trabajo", donde escanear el código QR asigne la PC y cargue la imagen en un solo paso.</span>
 
 ---
 
@@ -161,3 +162,10 @@ Está diseñado para ser entregado como **trabajo de curso de Organización y M�
 
 ¿Deseas que agregue más procesos (ej. Gestión de Incidentes, Onboarding de Nuevos Usuarios, Cierre de Semestre, etc.) o que prepare una versión con PlantUML para generar diagramas reales?
 
+---
+
+## Secciones propuestas
+### 3.5 Proceso: Gestión de Incidentes y Reporte de Fallas
+### 3.6 Proceso: Cierre de Semestre y Limpieza de Recursos (Garbage Collection)
+
+<span style="color:red;">**[COMENTARIO A FAVOR]:** La propuesta inicial es excelente creando recursos, pero faltaba cubrir el ciclo de vida completo. Añadir flujos de incidentes y purga de semestre evitará la saturación de los servidores Proxmox y Harbor, cerrando el ciclo operativo.</span>

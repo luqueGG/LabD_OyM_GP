@@ -52,6 +52,7 @@
 - [ ] Sistema de reserva de equipos.
 - [ ] Monitoreo del estado de los laboratorios.
 
+<span style="color:red;">**[COMENTARIO A FAVOR]:** Para reflejar las mejoras operativas detectadas, se deben añadir historias de usuario específicas para el soporte de incidentes (Épica 4) y los scripts de limpieza de fin de ciclo (Épica 1). Esto alinea el desarrollo técnico con las necesidades reales de Organización y Métodos.</span>
 ---
 
 ### Épica 5: Frontend y Portal de Usuario
