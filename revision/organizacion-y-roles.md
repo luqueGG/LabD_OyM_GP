@@ -28,3 +28,4 @@
 ## 3. Flujo de Escalamiento
 Alumno → Profesor → Encargado de Laboratorio → Director (solo para decisiones de presupuesto o políticas generales).
 
+
