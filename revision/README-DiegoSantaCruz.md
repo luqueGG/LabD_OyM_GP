@@ -113,3 +113,19 @@ Cada Squad debe contar con un responsable encargado de:
 - Documentar procesos
 - Mantener actualizada la matriz RACI
 - Coordinar con el Chapter de Organización.
+
+---
+
+# Gobernanza de Imágenes Docker y Licencias
+
+## Gobernanza de imágenes Docker
+
+Toda imagen Docker que forme parte de la plataforma deberá mantenerse bajo un proceso de control que permita identificar su responsable, su versión y los cambios realizados a lo largo del tiempo. Antes de ser publicada en el repositorio central, cada imagen deberá pasar por un proceso de validación que verifique su correcto funcionamiento y descarte posibles vulnerabilidades de seguridad. Además, será importante mantener un historial de versiones para facilitar la recuperación de imágenes anteriores cuando sea necesario.
+
+## Uso de Harbor
+
+El proyecto plantea el uso de Harbor como repositorio central de imágenes, por lo que este deberá convertirse en el punto único de almacenamiento y distribución. Esto permitirá controlar qué imágenes pueden ser utilizadas por los diferentes equipos de trabajo, gestionar permisos de acceso y mantener un registro de las actualizaciones realizadas. Asimismo, Harbor facilitará la trazabilidad de las imágenes y contribuirá a mantener un entorno de trabajo estandarizado tanto para la versión académica como para la empresarial.
+
+## Gobernanza de licencias
+
+Además del control sobre las imágenes Docker, resulta necesario llevar un registro de las licencias correspondientes a todas las tecnologías y dependencias empleadas por el proyecto. Para cada herramienta utilizada se recomienda documentar su nombre, versión y tipo de licencia, verificando que su uso sea compatible con los objetivos del proyecto y evitando posibles inconvenientes legales derivados del uso de software de terceros.
