@@ -1,5 +1,5 @@
 ### Análisis: Plataforma de Gestión de Laboratorios
-Tras revisar a detalle la documentación base de nuestra propuesta para la Plataforma Híbrida de Gestión de Laboratorios, considero que el enfoque actual es muy sólido. La estrategia de utilizar el marco Cynefin para catalogar nuestra situación como un "problema complejo" justifica perfectamente la adopción del Modelo Spotify. Esto nos permitirá mantener una estructura ágil, combinando autonomía técnica en los *Squads* con la alineación metodológica de los *Chapters*. 
+Tras revisar a detalle la documentación base de nuestra propuesta para la Plataforma de Gestión de Laboratorios, considero que el enfoque actual es muy sólido. La estrategia de utilizar el marco Cynefin para catalogar nuestra situación como un "problema complejo" justifica perfectamente la adopción del Modelo Spotify. Esto nos permitirá mantener una estructura ágil, combinando autonomía técnica en los *Squads* con la alineación metodológica de los *Chapters*. 
 
 Sin embargo, durante mi análisis de los flujos de Organización y Métodos (O&M) y la planificación ágil, he identificado ciertas redundancias operativas, vacíos en el ciclo de vida del servicio y riesgos en la implementación de los roles. A continuación, detallo los hallazgos que he descubierto y propongo mejoras concretas para optimizar nuestro proyecto.
 
