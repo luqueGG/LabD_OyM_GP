@@ -57,3 +57,59 @@ Definir indicadores (KPIs) para medir:
 - Uso del laboratorio
 - Disponibilidad
 - Tiempo de recuperación
+
+---
+
+## Organización y Roles
+
+### Tribe Platform Lab
+
+Responsable de coordinar el proyecto completo.
+
+### Squad Core Platform
+
+Responsable de:
+
+- Arquitectura principal
+- Integración de componentes
+- APIs
+
+### Squad Image & Container Management
+
+Responsable de:
+
+- Harbor
+- Docker
+- Versionado de imágenes
+
+### Squad Hardware & Lab Operations
+
+Responsable de:
+
+- Inventario
+- Reservas
+- Hardware
+
+### Squad Frontend
+
+Responsable de:
+
+- Portal web
+- Dashboards
+- Experiencia del usuario
+
+### Chapters
+
+Backend
+DevOps
+Frontend
+Seguridad
+Organización y Procesos
+Cada Chapter define estándares técnicos y brinda mentoría.
+
+### Process Owner
+
+Cada Squad debe contar con un responsable encargado de:
+- Documentar procesos
+- Mantener actualizada la matriz RACI
+- Coordinar con el Chapter de Organización.
