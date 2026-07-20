@@ -21,3 +21,39 @@ No obstante, durante la revisión también se identificaron algunos aspectos que
 3. No existe una descripción detallada del flujo entre los distintos componentes tecnológicos (Harbor, Kubernetes, GitLab, Keycloak, etc.).
 4. Sería conveniente incorporar un glosario de términos técnicos para facilitar la comprensión de nuevos integrantes.
 5. Algunos documentos presentan información repetida entre la presentación y el documento principal, por lo que podría centralizarse parte del contenido.
+
+---
+
+## Propuestas de mejora
+
+### Propuesta 1
+
+Agregar un diagrama de arquitectura donde se muestre la interacción entre:
+
+- Usuario
+- Plataforma
+- Harbor
+- Kubernetes
+- GitLab
+- Base de datos
+
+### Propuesta 2
+
+Crear un documento INSTALL.md explicando cómo desplegar la plataforma paso a paso.
+
+### Propuesta 3
+
+Incorporar una matriz de riesgos técnicos y organizacionales.
+
+### Propuesta 4
+
+Agregar un cronograma tentativo para cada fase del proyecto.
+
+### Propuesta 5
+
+Definir indicadores (KPIs) para medir:
+
+- Tiempo de despliegue
+- Uso del laboratorio
+- Disponibilidad
+- Tiempo de recuperación
