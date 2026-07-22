@@ -2,7 +2,7 @@
 
 **Proyecto Académico-Empresarial**  
 **Carrera de Sistemas / Ingeniería de Software**  
-**Universidad [Nombre de la Universidad]**  
+**Universidad Nacional de San Agustin de Arequipa**  
 **Versión:** 1.0 (Propuesta)  
 **Fecha:** Julio 2026
 
